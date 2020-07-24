@@ -58,7 +58,7 @@ yarn add -D rollup @rollup/plugin-node-resolve
 yarn add vue                                     				   
 ```
 
-## 2. Configure
+## 3. Configure
 - (root)/package.json
 ```json
 ...
@@ -266,7 +266,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default install
 ```
 
-## examples
+## 4. examples
 1. Create project
 ```powershell
 npm i -g @vue/cli
@@ -333,7 +333,7 @@ yarn add -D webpack-cli
 
 ```
 
-## Run
+## 5. Run
 ```powershell
 # root
 yarn dev
