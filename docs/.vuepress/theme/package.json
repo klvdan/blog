@@ -1,0 +1,11 @@
+{
+  "name": "vuepress-theme-klv",
+  "version": "1.0.0",
+  "description": "vuepress theme",
+  "main": "layouts/Layout.vue",
+  "author": "kelvin",
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress/theme-default": "^1.5.2"
+  }
+}
