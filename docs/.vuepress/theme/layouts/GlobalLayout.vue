@@ -2,6 +2,9 @@
     <div id="global-layout">
         <component :is="layout"/>
         <footer>
+		  <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+            鄂ICP备20012934号-1&nbsp;|&nbsp;
+          </p>
           <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011502001239" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
             <img src="/beian.png" style="float:left;"/>
             <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
@@ -9,7 +12,7 @@
             </p>
           </a>
           <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
-            &nbsp;&nbsp;&copy;&nbsp;MIT&nbsp;&nbsp;2020 Kelvin Yu
+            &nbsp;|&nbsp;&copy;&nbsp;MIT&nbsp;&nbsp;2020 Kelvin Yu
           </p>
         </footer>
     </div>
